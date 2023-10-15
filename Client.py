@@ -31,6 +31,7 @@ class ElexonClientBase:
 
     def _init_session(self) -> requests.Session:
         self.session = requests.session()
+        
 
     def _get_request_kwargs(self, report_name, **kwargs):
 
